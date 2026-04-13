@@ -1,5 +1,8 @@
 # manosaba 开发指南
 
+注意，本文件可在地图数据包根目录中的docs文件夹内找到，为制作组成员使用的指南文件，供有二创需求的玩家参考
+使用vscode打开会有更好的阅读体验
+
 ## 数据包架构简述
 1. 游戏主框架
     · manosaba:framework/scoreboard/scoreboard_init 为游戏重置时调用的函数，请将你命名空间中的 **reset** 函数写入scoreboard_init中以确保重置正常
